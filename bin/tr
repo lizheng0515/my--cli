@@ -7,7 +7,6 @@ const { version } = require(resolve(__dirname, '../package.json'))
 process.env.NODE_PATH = resolve(__dirname, '../node_modules/')
 
 program.version(version)
-program.name("【TRANSSION】");
 program.usage("my-cli 自动化构建脚手架");
 
 program
